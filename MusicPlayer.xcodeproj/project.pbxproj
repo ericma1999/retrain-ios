@@ -9,11 +9,11 @@
 /* Begin PBXBuildFile section */
 		328C1C8423F901BE00B8D6E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328C1C8323F901BE00B8D6E9 /* AppDelegate.swift */; };
 		328C1C8623F901BE00B8D6E9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328C1C8523F901BE00B8D6E9 /* SceneDelegate.swift */; };
-		328C1C8823F901BE00B8D6E9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328C1C8723F901BE00B8D6E9 /* ViewController.swift */; };
 		328C1C8B23F901BE00B8D6E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 328C1C8923F901BE00B8D6E9 /* Main.storyboard */; };
 		328C1C8D23F901C000B8D6E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 328C1C8C23F901C000B8D6E9 /* Assets.xcassets */; };
 		328C1C9023F901C000B8D6E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 328C1C8E23F901C000B8D6E9 /* LaunchScreen.storyboard */; };
 		328C1C9B23F901C000B8D6E9 /* MusicPlayerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328C1C9A23F901C000B8D6E9 /* MusicPlayerUITests.swift */; };
+		328C1CA623F9020500B8D6E9 /* GenreButtonScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328C1CA523F9020500B8D6E9 /* GenreButtonScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,7 +30,6 @@
 		328C1C8023F901BE00B8D6E9 /* MusicPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		328C1C8323F901BE00B8D6E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		328C1C8523F901BE00B8D6E9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		328C1C8723F901BE00B8D6E9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		328C1C8A23F901BE00B8D6E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		328C1C8C23F901C000B8D6E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		328C1C8F23F901C000B8D6E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -38,6 +37,7 @@
 		328C1C9623F901C000B8D6E9 /* MusicPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MusicPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		328C1C9A23F901C000B8D6E9 /* MusicPlayerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicPlayerUITests.swift; sourceTree = "<group>"; };
 		328C1C9C23F901C000B8D6E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		328C1CA523F9020500B8D6E9 /* GenreButtonScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenreButtonScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,8 +81,8 @@
 			children = (
 				328C1C8323F901BE00B8D6E9 /* AppDelegate.swift */,
 				328C1C8523F901BE00B8D6E9 /* SceneDelegate.swift */,
-				328C1C8723F901BE00B8D6E9 /* ViewController.swift */,
 				328C1C8923F901BE00B8D6E9 /* Main.storyboard */,
+				328C1CA523F9020500B8D6E9 /* GenreButtonScreen.swift */,
 				328C1C8C23F901C000B8D6E9 /* Assets.xcassets */,
 				328C1C8E23F901C000B8D6E9 /* LaunchScreen.storyboard */,
 				328C1C9123F901C000B8D6E9 /* Info.plist */,
@@ -200,9 +200,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				328C1C8823F901BE00B8D6E9 /* ViewController.swift in Sources */,
 				328C1C8423F901BE00B8D6E9 /* AppDelegate.swift in Sources */,
 				328C1C8623F901BE00B8D6E9 /* SceneDelegate.swift in Sources */,
+				328C1CA623F9020500B8D6E9 /* GenreButtonScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
